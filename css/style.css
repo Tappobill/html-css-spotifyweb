@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.spotify{
+    width: 100%;
+    height: 100vh;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+main{
+    width: 100%;
+    height:calc(100% - 5.5rem);
+    display: flex;
+}
+
+.left-nav{
+    width: 15.5rem;
+    height: calc(100%-5.5rem);
+    background-color: #000000;
+    overflow-y: hidden;
+    color: #626262;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.col-left{
+    height: 5rem;
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-top: 1rem;
+} 
+
+.fa-brands.fa-spotify{
+    display: none;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+}
+
+.left-nav .house{
+    border-left: 2px solid #9ce62a;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.left-nav .left-1 .house{
+    color: lightgray
+}
+
+.search{
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.library{
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.fa-solid.fa-plus{
+    background-color: #a3a3a3;
+    padding: 0.5rem;
+}
+
+.left-nav h2{
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.left-nav ul{
+    list-style: none;
+}
+
+li{
+    padding-top: 0.5rem;
+}
+
+.downloadleft{
+    padding-bottom:  0.5rem;
+}
+
+.jhon{
+    border-top: 1px solid #626262;
+    padding-top: 0.5rem;
+}
+
+.jhon span{
+    color: white;
+}
+
+.left-1{
+    height: 8rem;
+}
+
+.left-2{
+    padding-left: 1rem;
+    height: calc(100% - 19rem);
+}
+
+.left-3{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100px;
+}
+
