@@ -166,7 +166,7 @@ li{
 
 .main-interface h2,h3{
     color:white;
-    padding: 20px 0;
+    padding: 1rem 0;
 }
 
 .main-interface h4{
@@ -196,4 +196,32 @@ li{
     left: 43%;
     opacity: 0;
  }
+
+.column-main2{
+    display: flex;
+    justify-content: flex-start;   
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.column2 .card img{
+    width: 100%;
+}
+
+.column2{
+    width: calc(96%/6);
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.column2 .card3 img{
+    width: 100%;
+}
+
+.card3{
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
 
