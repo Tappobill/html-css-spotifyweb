@@ -143,7 +143,7 @@ li{
     height: 1px;
     padding-top: 0;
     padding-bottom: 0;
-    padding-left: 30px;
+    padding-left: 1.5rem;
 }
 
 .green-underline{
@@ -211,8 +211,8 @@ li{
 
 .column2{
     width: calc(96%/6);
-    padding-top: 10px;
-    padding-right: 10px;
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 .column2 .card3 img{
@@ -223,5 +223,143 @@ li{
     border-radius: 50%;
     overflow: hidden;
     position: relative;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    overflow-y: hidden;
+    background-color:#282828;
+}
+
+.container-footer{
+    display: flex;
+    width: 99%;
+    margin: auto;
+}
+
+.nav-footer{
+    display: flex;
+    align-items: center;
+    width: calc(100%/3);
+    justify-content: flex-start;
+}
+
+.footer-card{
+    width: 100px;
+    height: 100px;
+}
+
+.footer-card img{
+    width: 100px;
+    height: 100px;
+    padding: 1.3rem;
+}
+
+.footer-card h3{
+ padding-top: 2rem;
+}
+
+.footer-card h4{
+    margin-top: -18px;
+    color: #737373;
+}
+
+.footer-card i{
+    padding-top: 2.5rem;
+    padding-left: 0.5rem;
+    color: #737373;
+}
+
+.footer-center{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: flex-start;
+}
+
+.fa-solid.fa-shuffle,
+.fa-solid.fa-backward-step,
+.fa-solid.fa-circle-play,
+.fa-solid.fa-forward-step,.fa-solid.fa-arrow-rotate-right{
+    color: white;
+}
+
+.player{
+    padding-bottom: 0.5rem;
+}
+
+.player i{
+    padding: 0 0.5rem;
+}
+
+.number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.number span{
+    color: white;
+    padding: 0 0.5rem;
+}
+
+.line-time{
+    background-color: #a3a3a3;
+    width: 70%;
+    height: 2px;
+}
+
+.green-line-time{
+    background-color: white;
+    width: 20%;
+    height: 2px;
+}
+
+.line-small{
+    background-color: #a3a3a3;
+    width: 100px;
+    height: 2px;
+}
+
+.line-green{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: white;
+    width: 50px;
+    height: 2px;
+}
+
+.fa-solid.fa-bars,
+.fa-solid.fa-tv,
+.fa-solid.fa-volume-high{
+    color: white;
+    padding: 0 0.5rem;
+}
+
+.nav-footer.second{
+    align-items: center;
+}
+
+.nav-footer:last-of-type{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.green-line-time{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.circle{
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    opacity: 0;
 }
 
