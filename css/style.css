@@ -117,7 +117,8 @@ li{
 
 .main-interface{
     width: calc(100% - 15rem);
-    background-color: #141922;    
+    background-color: #141922;
+    overflow-y: auto;
 }
 
 .main-menu{
@@ -150,4 +151,49 @@ li{
     width: 50px;
     height: 1px;
 }
+
+.column-main{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.column{
+    width: calc(96%/6);
+}
+
+.main-interface h2,h3{
+    color:white;
+    padding: 20px 0;
+}
+
+.main-interface h4{
+    color: #64676c;
+}
+
+.column .card img{
+    width: 100%;
+}
+.container-interface{
+    width: 100%;
+}
+
+.container{
+    width: 98%;
+    margin: 0 auto;
+}
+
+.card{
+    position: relative;
+}
+
+.fa-regular.fa-circle-play.fa-2x{
+    color: white;
+    position: absolute;
+    top: 40.5%;
+    left: 43%;
+    opacity: 0;
+ }
 
