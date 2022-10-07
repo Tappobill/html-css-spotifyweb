@@ -471,3 +471,47 @@ img:hover + .fa-regular.fa-circle-play.fa-2x{
 }
 
 
+@media screen and (max-width:1100px){
+
+    .main-menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 6rem;
+    }
+
+    .main-menu li{
+        width: calc(90%/5);
+        list-style: none;
+        padding: 0.5rem;
+    }
+
+    .column-main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .column{
+        width: calc(96%/4);
+        padding:0 0.5rem;
+        text-align: center;
+    }
+
+    .column2{
+        width: calc(96%/4);
+        padding:0 0.5rem;
+        text-align: center;
+    }
+
+    .column-main2{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .column2{
+        padding: 0 0.5rem;
+    }
+
+} 
+
