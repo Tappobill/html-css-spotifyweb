@@ -521,13 +521,13 @@ img:hover + .fa-regular.fa-circle-play.fa-2x{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-top: 90px;
+        margin-top: 5rem;
     }
 
     .main-menu li{
         width: calc(90%/3);
         list-style: none;
-        padding: 5px;
+        padding: 0.5rem;
     }
 
     .column-main{
@@ -548,8 +548,8 @@ img:hover + .fa-regular.fa-circle-play.fa-2x{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding-top: 20px;
-        padding-left: 20px;
+        padding-top: 1rem;
+        padding-left: 1rem;
     }
 
     .footer-card .three i{
@@ -561,7 +561,7 @@ img:hover + .fa-regular.fa-circle-play.fa-2x{
 @media screen and (max-width:639px){
 
     .left-nav{
-        width: 60px;
+        width: 4rem;
     }
 
     .left-1 span{
@@ -575,18 +575,18 @@ img:hover + .fa-regular.fa-circle-play.fa-2x{
     .col-left .fa-brands.fa-spotify{
         display: block;
         color: white;
-        padding-left: 10px;
+        padding-left: 0.5rem;
     }
 
     .left-nav .house{
         border-left: none;
-        padding-left: 16px;
-        padding-bottom: 10px;
-        padding-top: 10px;
+        padding-left: 0.9rem;
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
     }
 
     .left-1{
-        margin-top: -40px;
+        margin-top: -2.5rem;
     }
 
     .left-2{
@@ -599,17 +599,17 @@ img:hover + .fa-regular.fa-circle-play.fa-2x{
 
     .jhon{
         border-top: none;
-        padding: 10px 0;
+        padding: 0.5rem 0;
     }
 
     .main-menu li{
         width: calc(90%/4);
         list-style: none;
-        padding: 5px;
+        padding: 0.5rem;
     }
 
     .main-interface{
-        width: calc(100% - 60px);
+        width: calc(100% - 4rem);
     }
 
     .column2{
@@ -617,12 +617,12 @@ img:hover + .fa-regular.fa-circle-play.fa-2x{
     }
 
     .three{
-        padding: 10px;
-        margin-top: 10px;
+        padding: 0.5rem;
+        margin-top: 0.5rem;
     }
 
     .nav-top{
-        width: calc(100% - 60px);
+        width: calc(100% - 4rem);
     }
 
     }
